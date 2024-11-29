@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        #cal{
+            border: 3px solid;
+            padding: 20px;
+            display: grid;
+            row-gap: 10px;
+            grid-template-columns: repeat(4,60px);
+            width: 240px;
+            align-content: center;
+            border-radius: 20px;
+            background-color: rgb(41, 36, 36);
+            box-shadow: 10px 10px 10px;
+            color: aliceblue;
+            text-align: center;
+        } 
+        #c0{
+            border: 3px solid;
+            width: 235px;
+            height: 50px;
+            grid-column: 1/5;
+            background-color: rgb(21, 150, 214);
+            border-color: black;
+            margin-top: 10px;
+        }
+        #c1{
+            border: 3px solid;
+            width: 20px;
+            padding: 15px;
+            border-radius: 40px;
+            display: grid;
+           background-color: grey;
+           box-shadow: 10px 10px 10px rgb(10, 10, 10);
+           border-color:rgb(10, 9, 9)
+        
+        }
+        #cal #c1:active{
+            border-color: lightcoral;
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div id="cal">
+        <div id="c0"><h2 style="margin-left: 130px;">10+20=30</h2></div>
+        <div id="c1" style="background-color: orangered;">AC</div>
+        <div id="c1">C</div>
+        <div id="c1">%</div>
+        <div id="c1">/</div>
+        <div id="c1">7</div>
+        <div id="c1">8</div>
+        <div id="c1">9</div>
+        <div id="c1">X</div>
+        <div id="c1">4</div>
+        <div id="c1">5</div>
+        <div id="c1">6</div>
+        <div id="c1">-</div>
+        <div id="c1">1</div>
+        <div id="c1">2</div>
+        <div id="c1">3</div>
+        <div id="c1">+</div>
+        <div id="c1">00</div>
+        <div id="c1">0</div>
+        <div id="c1">.</div>
+        <div id="c1" style="background-color: orangered;">=</div>
+        
+    </div>
+</body>
+</html>
